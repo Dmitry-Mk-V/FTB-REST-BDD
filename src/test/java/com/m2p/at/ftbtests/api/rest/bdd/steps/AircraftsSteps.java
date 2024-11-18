@@ -100,6 +100,10 @@ public class AircraftsSteps {
         var lastResponse = storage.getLastApiCallSingleItemResponse();
         assertThrows(NullPointerException.class, ()-> lastResponse.getNumberOfSeats());
     }
+
+
+
+
 }
 
 /// @Then("aircraft number of seats is null")
