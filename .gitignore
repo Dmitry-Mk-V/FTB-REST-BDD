@@ -39,4 +39,4 @@ build/
 
 allure-results/
 
-tests_services.*.log
+*.log
